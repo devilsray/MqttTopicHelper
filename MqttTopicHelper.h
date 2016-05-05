@@ -1,5 +1,5 @@
-#ifndef MqttTopicsHelper_H
-#define MqttTopicsHelper_H
+#ifndef MqttTopicHelper_H
+#define MqttTopicHelper_H
 #include <stdio.h>
 
 #define MQTT_SUFFIX_DEFAULT   ""
@@ -13,10 +13,10 @@
 #define MQTT_SUFFIX_PERCENT   "percent"
 
 #endif
-  class MqttTopicsHelper {
+  class MqttTopicHelper {
   public:
-    MqttTopicsHelper();
-    MqttTopicsHelper(const char* prefix);
+    MqttTopicHelper();
+    MqttTopicHelper(const char* prefix);
     void updatePrefix(const char* prefix);
     const char* getTopic(char* itemName, const char* suffix);
     const char* getTopic(char* itemName);
