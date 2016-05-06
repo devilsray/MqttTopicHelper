@@ -1,7 +1,7 @@
 {
   "name": "MqttTopicHelper",
   "keywords": "configuration, mqtt, helpers",
-  "description": "helps to build mqtt topics also on config changes during runtime",
+  "description": "Helps to build mqtt topics also on config changes during runtime",
   "authors": {
     "name": "Karsten Kukat",
     "email": "dev@devilsray.com"
@@ -12,6 +12,6 @@
     "url": "https://github.com/devilsray/MqttTopicHelper"
   },
   "version": "0.0.2",
-  "frameworks": "All",
-  "platforms": "All"
+  "frameworks": "*",
+  "platforms": "*"
 }
